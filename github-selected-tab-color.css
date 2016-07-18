@@ -1,0 +1,16 @@
+@-moz-document domain("github.com") {
+ /*! GitHub Selected Tab Color v1.0.0 (7/18/2016) *//*
+ * https://github.com/StylishThemes/GitHub-Dark (A Github Dark Theme Auxiliary style)
+ * http://userstyles.org/styles/37035
+ * License: https://creativecommons.org/licenses/by-sa/4.0/
+ */
+  /* AGENT_SHEET */
+  .pagehead-tabs-item.selected, .reponav-item.selected, .btn-link.selected,
+  .tabnav-tab.selected {
+    border-top-width: 3px !important;
+    border-top-color: /*[[base-color]]*/ #4183C4 !important;
+  }
+  .menu-item.selected:before {
+    background-color: /*[[base-color]]*/ #4183C4 !important;
+  }
+}

@@ -23,6 +23,10 @@ Repo & User settings side navigation
 
 ## Recent Changes
 
-#### Version 1.0.0 (7/18/2016)
+### Version 1.0.1 (7/18/2016)
+
+* Reset position of site nav; GitHub Dark shifts it down.
+
+### Version 1.0.0 (7/18/2016)
 
 * Initial commit.

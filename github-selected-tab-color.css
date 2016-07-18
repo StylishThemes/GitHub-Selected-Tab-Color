@@ -13,4 +13,8 @@
   .menu-item.selected:before {
     background-color: /*[[base-color]]*/ #4183C4 !important;
   }
+  /* reset GitHub Dark shifting tabs up */
+  .reponav-item, .pagehead-tabs-item {
+    position: static !important;
+  }
 }

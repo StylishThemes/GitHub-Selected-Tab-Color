@@ -23,14 +23,9 @@ Repo & User settings side navigation
 
 ## Recent Changes
 
-### Version 1.0.2 (7/18/2016)
+### Versions 1.0.0 - 1.0.3 (7/18/2016)
 
+* Increase selector specificity.
 * Add repo selected filter style. Fixes [issue #2](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues/2).
-
-### Version 1.0.1 (7/18/2016)
-
 * Reset position of site nav; GitHub Dark shifts it down.
-
-### Version 1.0.0 (7/18/2016)
-
 * Initial commit.

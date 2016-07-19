@@ -1,4 +1,4 @@
-# GitHub Selected Tab Color
+# GitHub Selected Tab Color [![](https://img.shields.io/github/tag/StylishThemes/GitHub-Selected-Tab-Color.svg?label=%20tag%20)](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/tags) [![](http://github-svg-buttons.herokuapp.com/star.svg?user=StylishThemes&repo=GitHub-Selected-Tab-Color&style=flat&background=007ec6)](http://github.com/StylishThemes/GitHub-Selected-Tab-Color) [![](http://github-svg-buttons.herokuapp.com/fork.svg?user=StylishThemes&repo=GitHub-Selected-Tab-Color&style=flat&background=007ec6)](http://github.com/StylishThemes/GitHub-Selected-Tab-Color/fork)
 
 Add a custom selected tab color to GitHub's main navigation, issue comment tabs and both the repo and user settings tabs.
 

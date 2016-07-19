@@ -8,13 +8,17 @@ Site Navigation
 
 ![](https://cloud.githubusercontent.com/assets/136959/16926830/2278a662-4cf0-11e6-82d9-bab597113a7d.png)
 
-Issue Comment tabs
+Issue comment tabs
 
 ![](https://cloud.githubusercontent.com/assets/136959/16926837/2fe44d6a-4cf0-11e6-89e3-840d30e0e223.png)
 
-Repo & User settings side navigation
+Repo & user settings side navigation
 
 ![](https://cloud.githubusercontent.com/assets/136959/16926846/387d1984-4cf0-11e6-9dbb-d8ad1b160bc2.png)
+
+Repo selected filter
+
+![](https://cloud.githubusercontent.com/assets/136959/16935752/923324be-4d27-11e6-8f72-2a69388ed406.png)
 
 ## Install
 

@@ -27,6 +27,10 @@ Repo selected filter
 
 ## Recent Changes
 
+### Versions 1.0.5 (7/19/2016)
+
+* [Status](https://status.github.com/): Add tab styles. Fixes [issue #4](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues/4).
+
 ### Versions 1.0.0 - 1.0.4 (7/18/2016)
 
 * Style profile repositories filter indicator.

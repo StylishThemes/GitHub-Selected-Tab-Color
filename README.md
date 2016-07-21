@@ -27,7 +27,11 @@ Repo selected filter
 
 ## Recent Changes
 
-### Versions 1.0.5 (7/19/2016)
+### Version 1.0.6 (7/21/2016)
+
+* Cosmetic: Move each selector to its own line.
+
+### Version 1.0.5 (7/19/2016)
 
 * [Status](https://status.github.com/): Add tab styles. Fixes [issue #4](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues/4).
 

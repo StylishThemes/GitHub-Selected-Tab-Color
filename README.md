@@ -27,6 +27,10 @@ Repo selected filter
 
 ## Recent Changes
 
+### Version 1.0.7 (9/14/2016)
+
+* User: Include new nav bar indicator.
+
 ### Version 1.0.6 (7/21/2016)
 
 * Cosmetic: Move each selector to its own line.

@@ -27,6 +27,10 @@ Repo selected filter
 
 ## Recent Changes
 
+### Version 1.0.9 (9/17/2016)
+
+* Developer: Add selected items. Fixes [issue #7](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues/7).
+
 ### Version 1.0.7 & 1.0.8 (9/14/2016)
 
 * User:

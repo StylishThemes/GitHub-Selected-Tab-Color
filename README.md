@@ -29,6 +29,10 @@ Repo selected filter
 
 ## Recent Changes
 
+### Version 1.0.10 (9/23/2017)
+
+* Increase sub tab specificity. Fixes [issue #9](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues/9).
+
 ### Version 1.0.9 (9/17/2016)
 
 * Developer: Add selected items. Fixes [issue #7](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues/7).

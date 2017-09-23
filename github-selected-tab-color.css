@@ -9,6 +9,7 @@
   body .reponav-item.selected,
   body .btn-link.selected,
   body .tabnav-tab.selected,
+  body .tabnav-pr .tabnav-tab.selected, /* issue #9 */
   body #graph_data .tab.selected {
     border-top-width: 3px !important;
     border-top-color: /*[[base-color]]*/ #4183C4 !important;

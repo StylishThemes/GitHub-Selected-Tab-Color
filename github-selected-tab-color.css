@@ -16,7 +16,8 @@
   }
   body .repo-filterer .repo-filter.filter-selected,
   body .filter-selected,
-  body .underline-nav-item.selected,
+  body .UnderlineNav-item:hover,
+  body .UnderlineNav-item.selected,
   body .sub-nav ul a.active {
     border-bottom-color: /*[[base-color]]*/ #4183C4 !important;
   }

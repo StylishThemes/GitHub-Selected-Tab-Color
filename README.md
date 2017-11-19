@@ -29,6 +29,10 @@ Repo selected filter
 
 ## Recent Changes
 
+### Version 1.0.11 (11/19/2017)
+
+* fix underline nav selectors 
+
 ### Version 1.0.10 (9/23/2017)
 
 * Increase sub tab specificity. Fixes [issue #9](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues/9).

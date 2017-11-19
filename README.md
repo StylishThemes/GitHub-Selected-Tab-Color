@@ -31,7 +31,8 @@ Repo selected filter
 
 ### Version 1.0.11 (11/19/2017)
 
-* fix underline nav selectors 
+* Fix underline nav selectors.
+* Add usercss version. See [usercss docs](https://github.com/openstyles/stylus/wiki/Usercss).
 
 ### Version 1.0.10 (9/23/2017)
 

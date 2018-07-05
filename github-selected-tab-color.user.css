@@ -11,7 +11,6 @@
 @preprocessor stylus
 ==/UserStyle== */
 @-moz-document domain("github.com") {
-  /* AGENT_SHEET */
   body .pagehead-tabs-item.selected,
   body .reponav-item.selected,
   body .btn-link.selected,

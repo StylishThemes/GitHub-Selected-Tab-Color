@@ -24,7 +24,8 @@
   body .filter-selected,
   body .UnderlineNav-item:hover,
   body .UnderlineNav-item.selected,
-  body .sub-nav ul a.active {
+  body .sub-nav ul a.active,
+  body .IconNav-item.selected {
     border-bottom-color: base-color !important;
   }
   body .menu-item.selected:before {

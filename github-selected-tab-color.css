@@ -1,10 +1,9 @@
 @-moz-document domain("github.com") {
- /*! GitHub Selected Tab Color v1.0.11 (11/19/2017) *//*
+ /*! GitHub Selected Tab Color v1.0.12 (07/05/2018) *//*
  * https://github.com/StylishThemes/GitHub-Selected-Tab-Color
  * https://userstyles.org/styles/130386/
  * License: https://creativecommons.org/licenses/by-sa/4.0/
  */
-  /* AGENT_SHEET */
   body .pagehead-tabs-item.selected,
   body .reponav-item.selected,
   body .btn-link.selected,
@@ -18,7 +17,8 @@
   body .filter-selected,
   body .UnderlineNav-item:hover,
   body .UnderlineNav-item.selected,
-  body .sub-nav ul a.active {
+  body .sub-nav ul a.active,
+  body .IconNav-item.selected {
     border-bottom-color: /*[[base-color]]*/ #4183C4 !important;
   }
   body .menu-item.selected:before {

@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        GitHub Selected Tab Color
-@version     v1.0.11
+@version     v1.0.12
 @description Add a custom selected tab color to GitHub
 @namespace   github.com/StylishThemes
 @author      StylishThemes <https://github.com/StylishThemes>
@@ -11,7 +11,6 @@
 @preprocessor stylus
 ==/UserStyle== */
 @-moz-document domain("github.com") {
-  /* AGENT_SHEET */
   body .pagehead-tabs-item.selected,
   body .reponav-item.selected,
   body .btn-link.selected,
@@ -25,7 +24,8 @@
   body .filter-selected,
   body .UnderlineNav-item:hover,
   body .UnderlineNav-item.selected,
-  body .sub-nav ul a.active {
+  body .sub-nav ul a.active,
+  body .IconNav-item.selected {
     border-bottom-color: base-color !important;
   }
   body .menu-item.selected:before {

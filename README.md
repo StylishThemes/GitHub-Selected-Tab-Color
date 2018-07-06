@@ -31,6 +31,11 @@ Repo selected filter
 
 ## Recent Changes
 
+### Version 1.0.12 (07/05/2018)
+
+* Add support for features page bottom navigation.
+* Remove legacy `/* AGENT_SHEET */`
+
 ### Version 1.0.11 (11/19/2017)
 
 * Fix underline nav selectors.

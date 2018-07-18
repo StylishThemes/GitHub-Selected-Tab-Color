@@ -1,4 +1,4 @@
-# GitHub Selected Tab Color [![](https://img.shields.io/github/tag/StylishThemes/GitHub-Selected-Tab-Color.svg?label=%20tag%20)](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/tags) [![](http://github-svg-buttons.herokuapp.com/star.svg?user=StylishThemes&repo=GitHub-Selected-Tab-Color&style=flat&background=007ec6)](http://github.com/StylishThemes/GitHub-Selected-Tab-Color) [![](http://github-svg-buttons.herokuapp.com/fork.svg?user=StylishThemes&repo=GitHub-Selected-Tab-Color&style=flat&background=007ec6)](http://github.com/StylishThemes/GitHub-Selected-Tab-Color/fork)
+# GitHub Selected Tab Color [![](https://img.shields.io/github/tag/StylishThemes/GitHub-Selected-Tab-Color.svg?label=%20version%20)](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/tags) [![](http://github-svg-buttons.herokuapp.com/star.svg?user=StylishThemes&repo=GitHub-Selected-Tab-Color&style=flat&background=007ec6)](http://github.com/StylishThemes/GitHub-Selected-Tab-Color) [![](https://img.shields.io/github/forks/StylishThemes/GitHub-Selected-Tab-Color.svg?style=flat)](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/network)
 
 Add a custom selected tab color to GitHub's main navigation, issue comment tabs and both the repo and user settings tabs.
 
@@ -20,14 +20,20 @@ Repo selected filter
 
 ![](https://cloud.githubusercontent.com/assets/136959/16935752/923324be-4d27-11e6-8f72-2a69388ed406.png)
 
-## Install
+## Installation
 
-* Install from [userstyles.org](https://userstyles.org/styles/130386) (with customization options) or [manually](https://raw.githubusercontent.com/StylishThemes/GitHub-Selected-Tab-Color/master/github-selected-tab-color.css).
-* Stylus is available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
-* Stylish is available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
-* FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).
-* Then install this style from [userstyles.org](https://userstyles.org/styles/130386/github-selected-tab-color) (with custom color settings).
-* Or, [install directly](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/raw/master/github-selected-tab-color.user.css) from this repository by opening the [`user.css`](https://github.com/openstyles/stylus/wiki/Usercss) file (available using Stylus or FreeStyler).
+Install [Stylus](https://add0n.com/stylus.html) for either [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) and then install the style using one of these methods:
+
+📦 [Install the usercss](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/raw/master/github-selected-tab-color.user.css) which supports automatic updates.<br>
+📦 [Install from userstyles.org](https://userstyles.org/styles/130386/github-selected-tab-color) with customization, does not support automatic updates.<br>
+
+## Additional Userstyles
+
+⚙️ [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark) The main GitHub style for which the GitHub Selected Tab Color is for.<br>
+⚙️ [GitHub-code-wrap](https://github.com/StylishThemes/GitHub-code-wrap) to wrap long lines in code boxes.<br>
+⚙️ [GitHub-Commit-Limit](https://github.com/StylishThemes/GitHub-Commit-Limit) to show line length limits when editing a commit message.<br>
+⚙️ [GitHub-FixedHeader](https://github.com/StylishThemes/GitHub-FixedHeader) to have a fixed header.<br>
+⚙️ [GitHub-tab-size](https://github.com/StylishThemes/GitHub-tab-size) to set a fixed tab size in code.
 
 ## Recent Changes
 

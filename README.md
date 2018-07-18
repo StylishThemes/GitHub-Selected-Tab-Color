@@ -31,6 +31,10 @@ Repo selected filter
 
 ## Recent Changes
 
+### Version 1.0.13 (07/18/2018)
+
+* Prevent .UnderlineNav-item from showing as white while not :focus.
+
 ### Version 1.0.12 (07/05/2018)
 
 * Add support for features page bottom navigation.

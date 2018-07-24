@@ -8,9 +8,12 @@
 @supportURL  https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues
 @license     CC-BY-SA-4.0
 @advanced color base-color 'Tab color' #4183C4
-@preprocessor stylus
+@preprocessor uso
 ==/UserStyle== */
 @-moz-document domain("github.com") {
+  :root {
+    --base-color: /*[[base-color]]*/
+  }
   body .pagehead-tabs-item.selected,
   body .reponav-item.selected,
   body .btn-link.selected,
@@ -18,7 +21,7 @@
   body .tabnav-pr .tabnav-tab.selected, /* issue #9 */
   body #graph_data .tab.selected {
     border-top-width: 3px !important;
-    border-top-color: base-color !important;
+    border-top-color: var(--base-color) !important;
   }
   body .repo-filterer .repo-filter.filter-selected,
   body .filter-selected,
@@ -27,14 +30,14 @@
   body .UnderlineNav-item:focus,
   body .UnderlineNav-item:hover,
   body .UnderlineNav-item.selected {
-    border-bottom-color: base-color !important;
+    border-bottom-color: var(--base-color) !important;
   }
   body .menu-item.selected:before {
-    background-color: base-color !important;
+    background-color: var(--base-color) !important;
   }
   body .js-current .standalone a,
   body .sidebar-module .disable > a {
-    border-left-color: base-color !important;
+    border-left-color: var(--base-color) !important;
   }
   /* reset GitHub Dark shifting tabs up */
   body .reponav-item, .pagehead-tabs-item {
@@ -45,6 +48,6 @@
 @-moz-document domain("github.community") {
   body .lia-tabs-standard li > span > a:hover,
   body .lia-tabs-standard .lia-tabs-active > span > a {
-    border-color: /*[[base-color]]*/ #4183C4 !important;
+    border-color: var(--base-color) !important;
   }
 }

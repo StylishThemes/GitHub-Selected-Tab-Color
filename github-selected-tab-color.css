@@ -34,3 +34,10 @@
     position: static !important;
   }
 }
+
+@-moz-document domain("github.community") {
+  body .lia-tabs-standard li > span > a:hover,
+  body .lia-tabs-standard .lia-tabs-active > span > a {
+    border-color: /*[[base-color]]*/ #4183C4 !important;
+  }
+}

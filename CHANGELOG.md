@@ -1,3 +1,10 @@
+### Version 1.1.0 (2018-07-24)
+
+* Modify `user.css` to work on USO (even though we won't support that site much longer); remove plain `.css` file.
+* Meta:
+  * Moved change log into separate file.
+  * Modified change log date format to YYYY-MM-DD.
+
 ### Version 1.0.14 (2018-07-18)
 
 * New: Add support for GH Community Dark

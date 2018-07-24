@@ -30,12 +30,17 @@ Install [Stylus](https://add0n.com/stylus.html) for either [Firefox](https://add
 ## Additional Userstyles
 
 ⚙️ [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark) The main GitHub style for which the GitHub Selected Tab Color is for.<br>
+⚙️ [GitHub-Community-Dark](https://github.com/StylishThemes/GitHub-Community-Dark) The GitHub Community Dark style for which the GitHub Selected Tab Color is also for.<br>
 ⚙️ [GitHub-code-wrap](https://github.com/StylishThemes/GitHub-code-wrap) to wrap long lines in code boxes.<br>
 ⚙️ [GitHub-Commit-Limit](https://github.com/StylishThemes/GitHub-Commit-Limit) to show line length limits when editing a commit message.<br>
 ⚙️ [GitHub-FixedHeader](https://github.com/StylishThemes/GitHub-FixedHeader) to have a fixed header.<br>
 ⚙️ [GitHub-tab-size](https://github.com/StylishThemes/GitHub-tab-size) to set a fixed tab size in code.
 
 ## Recent Changes
+
+### Version 1.0.14 (07/18/2018)
+
+* New: Add support for GH Community Dark
 
 ### Version 1.0.13 (07/18/2018)
 

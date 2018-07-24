@@ -1,5 +1,5 @@
 @-moz-document domain("github.com") {
- /*! GitHub Selected Tab Color v1.0.13 (07/18/2018) *//*
+ /*! GitHub Selected Tab Color v1.0.14 (07/24/2018) *//*
  * https://github.com/StylishThemes/GitHub-Selected-Tab-Color
  * https://userstyles.org/styles/130386/
  * License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -32,5 +32,12 @@
   /* reset GitHub Dark shifting tabs up */
   body .reponav-item, .pagehead-tabs-item {
     position: static !important;
+  }
+}
+
+@-moz-document domain("github.community") {
+  body .lia-tabs-standard li > span > a:hover,
+  body .lia-tabs-standard .lia-tabs-active > span > a {
+    border-color: /*[[base-color]]*/ #4183C4 !important;
   }
 }

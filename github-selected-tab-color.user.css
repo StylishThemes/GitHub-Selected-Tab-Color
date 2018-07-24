@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        GitHub Selected Tab Color
-@version     v1.0.13
+@version     v1.0.14
 @description Add a custom selected tab color to GitHub
 @namespace   github.com/StylishThemes
 @author      StylishThemes <https://github.com/StylishThemes>
@@ -39,5 +39,12 @@
   /* reset GitHub Dark shifting tabs up */
   body .reponav-item, .pagehead-tabs-item {
     position: static !important;
+  }
+}
+
+@-moz-document domain("github.community") {
+  body .lia-tabs-standard li > span > a:hover,
+  body .lia-tabs-standard .lia-tabs-active > span > a {
+    border-color: /*[[base-color]]*/ #4183C4 !important;
   }
 }

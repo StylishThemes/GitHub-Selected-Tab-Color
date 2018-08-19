@@ -10,7 +10,7 @@
 @advanced color base-color 'Tab color' #4183C4
 @preprocessor uso
 ==/UserStyle== */
-@-moz-document domain("github.com") {
+@-moz-document regexp("^https?://((blog|gist|guides|help|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
   :root {
     --base-color: /*[[base-color]]*/
   }

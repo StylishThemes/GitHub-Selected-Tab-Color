@@ -1,42 +1,37 @@
 /* ==UserStyle==
-@name        GitHub Selected Tab Color
-@version     v1.1.0
-@description Add a custom selected tab color to GitHub
-@namespace   github.com/StylishThemes
-@author      StylishThemes <https://github.com/StylishThemes>
-@homepageURL https://github.com/StylishThemes/GitHub-Selected-Tab-Color
-@supportURL  https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues
-@license     CC-BY-SA-4.0
-@advanced color base-color 'Tab color' #4183C4
+@name         GitHub Selected Tab Color
+@version      1.1.0
+@description  Add a custom selected tab color to GitHub
+@namespace    github.com/StylishThemes
+@author       StylishThemes <https://github.com/StylishThemes>
+@homepageURL  https://github.com/StylishThemes/GitHub-Selected-Tab-Color
+@supportURL   https://github.com/StylishThemes/GitHub-Selected-Tab-Color/issues
+@license      CC-BY-SA-4.0
+@advanced     color base-color "Tab color" #4183C4
 @preprocessor uso
 ==/UserStyle== */
 @-moz-document regexp("^https?://((blog|gist|guides|help|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
   :root {
-    --base-color: /*[[base-color]]*/
+    --base-color: /*[[base-color]]*/;
   }
-  body .pagehead-tabs-item.selected,
-  body .reponav-item.selected,
-  body .btn-link.selected,
-  body .tabnav-tab.selected,
-  body .tabnav-pr .tabnav-tab.selected, /* issue #9 */
+  body .pagehead-tabs-item.selected, body .reponav-item.selected,
+  body .btn-link.selected, body .tabnav-tab.selected,
+  /* issue #9 */
+  body .tabnav-pr .tabnav-tab.selected,
   body #graph_data .tab.selected {
     border-top-width: 3px !important;
     border-top-color: var(--base-color) !important;
   }
-  body .repo-filterer .repo-filter.filter-selected,
-  body .filter-selected,
-  body .sub-nav ul a.active,
-  body .IconNav-item.selected,
-  body .UnderlineNav-item:focus,
-  body .UnderlineNav-item:hover,
+  body .repo-filterer .repo-filter.filter-selected, body .filter-selected,
+  body .sub-nav ul a.active, body .IconNav-item.selected,
+  body .UnderlineNav-item:focus, body .UnderlineNav-item:hover,
   body .UnderlineNav-item.selected {
     border-bottom-color: var(--base-color) !important;
   }
   body .menu-item.selected:before {
     background-color: var(--base-color) !important;
   }
-  body .js-current .standalone a,
-  body .sidebar-module .disable > a {
+  body .js-current .standalone a, body .sidebar-module .disable > a {
     border-left-color: var(--base-color) !important;
   }
   /* reset GitHub Dark shifting tabs up */
@@ -44,7 +39,6 @@
     position: static !important;
   }
 }
-
 @-moz-document domain("github.community") {
   body .lia-tabs-standard li > span > a:hover,
   body .lia-tabs-standard .lia-tabs-active > span > a {

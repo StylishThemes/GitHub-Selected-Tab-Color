@@ -28,7 +28,8 @@
   body .UnderlineNav-item.selected {
     border-bottom-color: var(--base-color) !important;
   }
-  body .menu-item.selected:before {
+  body .menu-item.selected:before,
+	body .checks-index-item.selected:after {
     background-color: var(--base-color) !important;
   }
   body .js-current .standalone a, body .sidebar-module .disable > a {

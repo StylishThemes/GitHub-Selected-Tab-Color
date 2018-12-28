@@ -1,3 +1,22 @@
+### Version 1.1.3 (2018-12-28)
+
+* Revert automated script cleanup + bump version
+* Add support for checks-index nav
+
+### Version 1.1.2 (2018-12-6)
+
+* Add actions editor subdomain to the list
+
+### Version 1.1.1 (2018-08-19)
+
+* Meta:
+  * update authors
+  * run clean script & add missing semi-colon
+  * Add scripts
+  * Add contributing file
+  * Update dot files
+* Switch target pages from domain to regexp. Fixes #15
+
 ### Version 1.1.0 (2018-07-24)
 
 * Modify `user.css` to work on USO (even though we won't support that site much longer); remove plain `.css` file.

@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         GitHub Selected Tab Color
-@version      1.1.2
+@version      1.1.3
 @description  Add a custom selected tab color to GitHub
 @namespace    github.com/StylishThemes
 @author       StylishThemes <https://github.com/StylishThemes>
@@ -14,17 +14,22 @@
   :root {
     --base-color: /*[[base-color]]*/;
   }
-  body .pagehead-tabs-item.selected, body .reponav-item.selected,
-  body .btn-link.selected, body .tabnav-tab.selected,
+  body .pagehead-tabs-item.selected,
+  body .reponav-item.selected,
+  body .btn-link.selected,
+  body .tabnav-tab.selected,
   /* issue #9 */
   body .tabnav-pr .tabnav-tab.selected,
   body #graph_data .tab.selected {
     border-top-width: 3px !important;
     border-top-color: var(--base-color) !important;
   }
-  body .repo-filterer .repo-filter.filter-selected, body .filter-selected,
-  body .sub-nav ul a.active, body .IconNav-item.selected,
-  body .UnderlineNav-item:focus, body .UnderlineNav-item:hover,
+  body .repo-filterer .repo-filter.filter-selected,
+  body .filter-selected,
+  body .sub-nav ul a.active,
+  body .IconNav-item.selected,
+  body .UnderlineNav-item:focus,
+  body .UnderlineNav-item:hover,
   body .UnderlineNav-item.selected {
     border-bottom-color: var(--base-color) !important;
   }
@@ -32,7 +37,8 @@
 	body .checks-index-item.selected:after {
     background-color: var(--base-color) !important;
   }
-  body .js-current .standalone a, body .sidebar-module .disable > a {
+  body .js-current .standalone a,
+  body .sidebar-module .disable > a {
     border-left-color: var(--base-color) !important;
   }
   /* reset GitHub Dark shifting tabs up */

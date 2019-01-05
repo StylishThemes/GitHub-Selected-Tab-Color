@@ -1,3 +1,8 @@
+### Version 1.1.4 (2019-1-05)
+
+* Add milestone and project tabs
+* Cleanup
+
 ### Version 1.1.3 (2018-12-28)
 
 * Revert automated script cleanup + bump version

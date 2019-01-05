@@ -18,7 +18,6 @@
   body .reponav-item.selected,
   body .btn-link.selected,
   body .tabnav-tab.selected,
-  /* issue #9 */
   body .tabnav-pr .tabnav-tab.selected,
   body #graph_data .tab.selected,
   body .select-menu-tabs .select-menu-tab-nav[aria-selected="true"] {
@@ -35,7 +34,7 @@
     border-bottom-color: var(--base-color) !important;
   }
   body .menu-item.selected:before,
-	body .checks-index-item.selected:after {
+  body .checks-index-item.selected:after {
     background-color: var(--base-color) !important;
   }
   body .js-current .standalone a,

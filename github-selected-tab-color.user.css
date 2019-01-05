@@ -20,7 +20,8 @@
   body .tabnav-tab.selected,
   /* issue #9 */
   body .tabnav-pr .tabnav-tab.selected,
-  body #graph_data .tab.selected {
+  body #graph_data .tab.selected,
+  body .select-menu-tabs .select-menu-tab-nav[aria-selected="true"] {
     border-top-width: 3px !important;
     border-top-color: var(--base-color) !important;
   }

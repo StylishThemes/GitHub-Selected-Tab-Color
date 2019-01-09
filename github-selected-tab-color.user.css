@@ -30,7 +30,8 @@
   body .IconNav-item.selected,
   body .UnderlineNav-item:focus,
   body .UnderlineNav-item:hover,
-  body .UnderlineNav-item.selected {
+  body .UnderlineNav-item.selected,
+  body .user-status-emoji-tab[role=tab][aria-selected=true] {
     border-bottom-color: var(--base-color) !important;
   }
   body .menu-item.selected:before,

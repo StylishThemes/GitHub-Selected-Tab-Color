@@ -1,4 +1,8 @@
-### Version 1.1.4 (2019-1-05)
+### Version 1.1.5 (2019-01-09)
+
+* Added the user status emoji selector
+
+### Version 1.1.4 (2019-01-05)
 
 * Add milestone and project tabs
 * Cleanup

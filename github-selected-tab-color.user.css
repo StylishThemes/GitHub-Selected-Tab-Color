@@ -15,7 +15,7 @@
     --base-color: /*[[base-color]]*/;
   }
   body .pagehead-tabs-item.selected,
-  body .reponav-item.selected,
+  body .reponav .reponav-item.selected,
   body .btn-link.selected,
   body .tabnav-tab.selected,
   body .tabnav-pr .tabnav-tab.selected,

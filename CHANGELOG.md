@@ -1,3 +1,11 @@
+### Version 1.1.7 (2019-03-26)
+
+* Fix top tabs text down shift on selected issue #16
+
+### Version 1.1.6 (2019-03-25)
+
+* Allow this style to override GH Default
+
 ### Version 1.1.5 (2019-01-09)
 
 * Added the user status emoji selector

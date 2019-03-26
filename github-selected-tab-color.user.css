@@ -42,9 +42,9 @@
   body .sidebar-module .disable > a {
     border-left-color: var(--base-color) !important;
   }
-  /* reset GitHub Dark shifting tabs up */
-  body .reponav-item, .pagehead-tabs-item {
-    position: static !important;
+  /* reset shifting tabs text down issue #16 */
+  body .reponav .reponav-item.selected {
+    padding-top: 7px !important;
   }
 }
 @-moz-document domain("github.community") {

@@ -1,3 +1,7 @@
+### Version 1.1.9 (2019-03-27)
+
+* Add usercss auto-update URL
+
 ### Version 1.1.8 (2019-03-27)
 
 * Fix org top tabs text down shift on selected - issue #16

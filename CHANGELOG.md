@@ -1,6 +1,10 @@
+### Version 1.1.8 (2019-03-27)
+
+* Fix org top tabs text down shift on selected - issue #16
+
 ### Version 1.1.7 (2019-03-26)
 
-* Fix top tabs text down shift on selected issue #16
+* Fix top tabs text down shift on selected - issue #16
 
 ### Version 1.1.6 (2019-03-25)
 

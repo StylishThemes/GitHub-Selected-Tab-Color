@@ -30,10 +30,6 @@
     border-top-width: 2px !important;
     border-top-color: var(--base-color) !important;
   }
-	[class="page-responsive"] .IssueLabel {
-		line-height: 1.5em !important;
-		height: 20px !important;
-	}
   body .repo-filterer .repo-filter.filter-selected,
   body .filter-selected,
   body .sub-nav ul a.active,

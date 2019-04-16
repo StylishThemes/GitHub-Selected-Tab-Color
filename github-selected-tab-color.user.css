@@ -25,6 +25,15 @@
     border-top-width: 3px !important;
     border-top-color: var(--base-color) !important;
   }
+	body[class="page-responsive"] .tabs > a.selected,
+	body[class="page-responsive"] a.reponav-item.selected {
+    border-top-width: 2px !important;
+    border-top-color: var(--base-color) !important;
+  }
+	[class="page-responsive"] .IssueLabel {
+		line-height: 1.5em !important;
+		height: 20px !important;
+	}
   body .repo-filterer .repo-filter.filter-selected,
   body .filter-selected,
   body .sub-nav ul a.active,
@@ -32,7 +41,8 @@
   body .UnderlineNav-item:focus,
   body .UnderlineNav-item:hover,
   body .UnderlineNav-item.selected,
-  body .user-status-emoji-tab[role=tab][aria-selected=true] {
+  body .user-status-emoji-tab[role=tab][aria-selected=true],
+  body .SegmentedNav .subnav-link.selected {
     border-bottom-color: var(--base-color) !important;
   }
   body .menu-item.selected:before,
@@ -40,7 +50,8 @@
     background-color: var(--base-color) !important;
   }
   body .js-current .standalone a,
-  body .sidebar-module .disable > a {
+  body .sidebar-module .disable > a,
+  body .SegmentedNav .subnav-link.selected {
     border-left-color: var(--base-color) !important;
   }
   /* reset shifting selected tabs text down issue #16 */

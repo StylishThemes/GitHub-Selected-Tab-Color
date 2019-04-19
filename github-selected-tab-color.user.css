@@ -51,8 +51,8 @@
     border-top-width: 2px !important;
     border-top-color: var(--base-color) !important;
   }
-  body a.subnav-link.selected,
-  body a.subnav-link:hover {
+  body a.subnav-link:not(.subnav-primary).selected,
+  body a.subnav-link:not(.subnav-primary):hover {
     border-bottom-color: var(--base-color) !important;
   }
   /* End Mobile */

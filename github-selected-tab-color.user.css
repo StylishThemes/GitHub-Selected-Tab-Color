@@ -25,11 +25,6 @@
     border-top-width: 3px !important;
     border-top-color: var(--base-color) !important;
   }
-	body[class="page-responsive"] .tabs > a.selected,
-	body[class="page-responsive"] a.reponav-item.selected {
-    border-top-width: 2px !important;
-    border-top-color: var(--base-color) !important;
-  }
   body .repo-filterer .repo-filter.filter-selected,
   body .filter-selected,
   body .sub-nav ul a.active,
@@ -50,6 +45,17 @@
   body .SegmentedNav .subnav-link.selected {
     border-left-color: var(--base-color) !important;
   }
+  /* Start Mobile */
+  body[class="page-responsive"] .tabs > a.selected,
+  body[class="page-responsive"] a.reponav-item.selected {
+    border-top-width: 2px !important;
+    border-top-color: var(--base-color) !important;
+  }
+  body a.subnav-link.selected,
+  body a.subnav-link:hover {
+    border-bottom-color: var(--base-color) !important;
+  }
+  /* End Mobile */
   /* reset shifting selected tabs text down issue #16 */
   body .reponav .reponav-item.selected {
     padding-top: 7px !important;

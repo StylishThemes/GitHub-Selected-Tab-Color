@@ -51,6 +51,17 @@
     border-top-width: 2px !important;
     border-top-color: var(--base-color) !important;
   }
+  /* see issue https://github.com/StylishThemes/GitHub-Dark/issues/918 */
+  @media screen and (max-width: 3840px) {
+    .site-subnav .subnav-primary.selected, .site-subnav .subnav-primary:hover {
+      border-bottom-color: #eee !important;
+    }
+  }
+  @media screen and (max-width: 512px) {
+    .site-subnav .subnav-primary.selected, .site-subnav .subnav-primary:hover {
+      border-bottom-color: transparent !important;
+    }
+  }
   body a.subnav-link:not(.subnav-primary).selected,
   body a.subnav-link:not(.subnav-primary):hover {
     border-bottom-color: var(--base-color) !important;

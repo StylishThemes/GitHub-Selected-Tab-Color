@@ -41,8 +41,7 @@
     background-color: var(--base-color) !important;
   }
   body .js-current .standalone a,
-  body .sidebar-module .disable > a,
-  body .SegmentedNav .subnav-link.selected {
+  body .sidebar-module .disable > a {
     border-left-color: var(--base-color) !important;
   }
   /* Start Mobile */

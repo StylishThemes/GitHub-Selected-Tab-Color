@@ -33,7 +33,8 @@
   body .UnderlineNav-item:hover,
   body .UnderlineNav-item.selected,
   body .user-status-emoji-tab[role=tab][aria-selected=true],
-  body .SegmentedNav .subnav-link.selected {
+  body .SegmentedNav .subnav-link.selected,
+  body .SegmentedNav .subnav-link:hover {
     border-bottom-color: var(--base-color) !important;
   }
   body .menu-item.selected:before,

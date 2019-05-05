@@ -57,8 +57,8 @@
   }
   /* see issue https://github.com/StylishThemes/GitHub-Dark/issues/918 */
   @media screen and (max-width: 768px) {
-    body.page-responsive .site-subnav .subnav-primary.selected,
-    body.page-responsive .site-subnav .subnav-primary:hover {
+    body .site-subnav .subnav-primary.selected,
+    body .site-subnav .subnav-primary:hover {
       border-bottom-color: var(--transparent) !important;
     }
   }

@@ -56,14 +56,19 @@
     border-bottom-color: var(--base-color) !important;
   }
   /* see issue https://github.com/StylishThemes/GitHub-Dark/issues/918 */
-  body[class="page-responsive"] .site-subnav .subnav-primary.selected,
-  body[class="page-responsive"] .site-subnav .subnav-primary:hover {
-    border-bottom-color: transparent !important;
+  @media screen and (max-width: 768px) {
+    body.page-responsive .site-subnav .subnav-primary.selected,
+    body.page-responsive .site-subnav .subnav-primary:hover {
+      border-bottom-color: var(--transparent) !important;
+    }
   }
   /* End Mobile */
   /* see issue https://github.com/StylishThemes/GitHub-Dark/issues/918 */
-  body .site-subnav .subnav-primary.selected, .site-subnav .subnav-primary:hover {
-    border-bottom-color: var(--base-color) !important;
+  @media screen and (min-width: 1024px) {
+    body .site-subnav .subnav-primary.selected,
+    body .site-subnav .subnav-primary:hover {
+      border-bottom-color: var(--base-color) !important;
+    }
   }
   /* reset shifting selected tabs text down issue #16 */
   body .reponav .reponav-item.selected {

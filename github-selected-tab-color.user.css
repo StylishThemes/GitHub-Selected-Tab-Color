@@ -14,6 +14,7 @@
 @-moz-document regexp("^https?://((blog|gist|guides|help|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
   :root {
     --base-color: /*[[base-color]]*/;
+    --transparent: transparent;
   }
   body .pagehead-tabs-item.selected,
   body .reponav .reponav-item.selected,

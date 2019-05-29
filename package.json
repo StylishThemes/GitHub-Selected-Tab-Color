@@ -7,6 +7,9 @@
   "repository": "StylishThemes/GitHub-Selected-Tab-Color",
   "homepage": "https://github.com/StylishThemes/GitHub-Selected-Tab-Color",
   "main": "github-selected-tab-color.user.css",
+  "engines": {
+    "node": ">=12"
+  },
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-silverwind": "^2.1.0",

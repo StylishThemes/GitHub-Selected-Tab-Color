@@ -8,7 +8,7 @@
   "homepage": "https://github.com/StylishThemes/GitHub-Selected-Tab-Color",
   "main": "github-selected-tab-color.user.css",
   "engines": {
-    "node": ">=12"
+    "node": ">=10"
   },
   "devDependencies": {
     "eslint": "^5.16.0",

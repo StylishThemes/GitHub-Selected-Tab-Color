@@ -11,7 +11,7 @@
 @advanced     color base-color "Tab color" #4183C4
 @preprocessor uso
 ==/UserStyle== */
-@-moz-document regexp("^https?://((blog|gist|guides|help|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
+@-moz-document regexp("^https?://((blog|gist|guides|help|lab|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
   :root {
     --base-color: /*[[base-color]]*/;
     --transparent: transparent;

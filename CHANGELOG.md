@@ -1,3 +1,72 @@
+### Version 1.1.2x
+
+*
+* update changelog
+* fix stylint error with invalid switch
+* remove perfectionist
+* global: update devdeps
+* prevent crlf
+
+### Version 1.1.22
+
+* Add support for lab.github.com
+
+### Version 1.1.21
+
+* Update authors
+* Add new issue tab selector
+* reduce required node version to 10 - #17
+* update dependencies
+* remove fs-extra, require node 12 - fixes #17
+
+### Version 1.1.20
+
+* define var(--transparent) doh! moment.
+
+### Version 1.1.19
+
+* remove page responsive
+
+### Version 1.1.18
+
+* fix mobile vs desktop explorer tab again
+
+### Version 1.1.17
+
+* style .subnav-link:hover
+* remove possible dupe
+* add missed body prefix to site-subnav
+* CONTRIBUTING.MD: various fixes see description...
+
+### Version 1.1.16
+
+* rework 15cc561
+
+### Version 1.1.15
+
+* fix copy and paste typo from GHD
+
+### Version 1.1.14
+
+* explorer mobile/desktop: definitively squash https://github.com/StylishThemes/GitHub-Dark/issues/918
+
+### Version 1.1.13
+
+* fix: exclude subnav-primary on mobile
+
+### Version 1.1.12
+
+* mobile: add explore tabs
+
+### Version 1.1.11
+
+* remove local fixes for mobile, add upstream
+
+### Version 1.1.10
+
+* version: user ver to bump versions
+* extend support to mobile and other site pages
+
 ### Version 1.1.9 (2019-03-27)
 
 * Add usercss auto-update URL

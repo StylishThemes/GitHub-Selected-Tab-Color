@@ -26,7 +26,7 @@
     "patch": "npx ver -p patch github-selected-tab-color.user.css",
     "minor": "npx ver -p minor github-selected-tab-color.user.css",
     "major": "npx ver -p major github-selected-tab-color.user.css",
-    "stylelint": "npx stylelint --silent --color -- github-selected-tab-color.user.css",
+    "stylelint": "npx stylelint --quiet --color -- github-selected-tab-color.user.css",
     "test": "npm run eslint && npm run stylelint",
     "update": "npx updates -cu && npm install"
   }

@@ -21,13 +21,11 @@
   },
   "scripts": {
     "authors": "bash tools/authors",
-    "clean": "npm run perfectionist && node tools/fix-perfectionist.js",
     "eslint": "eslint --quiet --color tools/*.js",
     "lint": "npm run eslint && npm run stylelint",
     "patch": "npx ver -p patch github-selected-tab-color.user.css",
     "minor": "npx ver -p minor github-selected-tab-color.user.css",
     "major": "npx ver -p major github-selected-tab-color.user.css",
-    "perfectionist": "npx perfectionist github-selected-tab-color.user.css github-selected-tab-color.user.css --indentSize 2 --maxAtRuleLength 250",
     "stylelint": "npx stylelint --silent --color -- github-selected-tab-color.user.css",
     "test": "npm run eslint && npm run stylelint",
     "update": "npx updates -cu && npm install"

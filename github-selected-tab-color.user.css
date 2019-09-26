@@ -39,6 +39,9 @@
   body .SegmentedNav .subnav-link:hover {
     border-bottom-color: var(--base-color) !important;
   }
+  body .selected .security-nav-item {
+    box-shadow: inset 0 -3px 0 var(--base-color) !important;
+  }
   body .menu-item.selected:before,
   body .checks-index-item.selected:after {
     background-color: var(--base-color) !important;

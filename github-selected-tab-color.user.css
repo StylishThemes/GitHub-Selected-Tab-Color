@@ -77,7 +77,7 @@
   }
   /* reset shifting selected tabs text down issue #16 */
   body .reponav .reponav-item.selected {
-    padding-top: 7px !important;
+    padding-top: 5px !important;
   }
   body .orgnav .pagehead-tabs-item.selected {
     padding-top: 8px !important;

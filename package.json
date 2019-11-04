@@ -11,11 +11,11 @@
     "node": ">=12"
   },
   "devDependencies": {
-    "perfectionist": "^2.4.0",
-    "stylelint": "^11.0.0",
-    "stylelint-config-standard": "^19.0.0",
-    "updates": "^9.0.0",
-    "ver": "^5.1.4"
+    "perfectionist": "2.4.0",
+    "stylelint": "11.0.0",
+    "stylelint-config-standard": "19.0.0",
+    "updates": "9.0.0",
+    "ver": "5.1.4"
   },
   "scripts": {
     "authors": "bash tools/authors",

@@ -20,11 +20,11 @@
   "scripts": {
     "authors": "bash tools/authors",
     "lint": "npm run stylelint",
-    "patch": "npx ver -p patch github-selected-tab-color.user.css",
-    "minor": "npx ver -p minor github-selected-tab-color.user.css",
-    "major": "npx ver -p major github-selected-tab-color.user.css",
-    "stylelint": "npx stylelint --quiet --color -- github-selected-tab-color.user.css",
+    "patch": "ver -p patch github-selected-tab-color.user.css",
+    "minor": "ver -p minor github-selected-tab-color.user.css",
+    "major": "ver -p major github-selected-tab-color.user.css",
+    "stylelint": "stylelint --quiet --color -- github-selected-tab-color.user.css",
     "test": "npm run stylelint",
-    "update": "npx updates -cu && npm install"
+    "update": "updates -cu && npm install"
   }
 }

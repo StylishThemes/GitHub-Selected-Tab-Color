@@ -11,8 +11,6 @@
     "node": ">=10"
   },
   "devDependencies": {
-    "eslint": "^6.4.0",
-    "eslint-config-silverwind": "^4.1.1",
     "perfectionist": "^2.4.0",
     "stylelint": "^11.0.0",
     "stylelint-config-standard": "^19.0.0",
@@ -21,13 +19,12 @@
   },
   "scripts": {
     "authors": "bash tools/authors",
-    "eslint": "eslint --quiet --color tools/*.js",
-    "lint": "npm run eslint && npm run stylelint",
+    "lint": "npm run stylelint",
     "patch": "npx ver -p patch github-selected-tab-color.user.css",
     "minor": "npx ver -p minor github-selected-tab-color.user.css",
     "major": "npx ver -p major github-selected-tab-color.user.css",
     "stylelint": "npx stylelint --quiet --color -- github-selected-tab-color.user.css",
-    "test": "npm run eslint && npm run stylelint",
+    "test": "npm run stylelint",
     "update": "npx updates -cu && npm install"
   }
 }

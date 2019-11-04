@@ -36,7 +36,8 @@
   body .UnderlineNav-item.selected,
   body .user-status-emoji-tab[role=tab][aria-selected=true],
   body .SegmentedNav .subnav-link.selected,
-  body .SegmentedNav .subnav-link:hover {
+  body .SegmentedNav .subnav-link:hover,
+  body .UnderlineNav-item[role=tab][aria-selected=true] {
     border-bottom-color: var(--base-color) !important;
   }
   body .selected .security-nav-item {

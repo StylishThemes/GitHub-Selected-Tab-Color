@@ -15,14 +15,14 @@
     "stylelint": "11.1.1",
     "stylelint-config-standard": "19.0.0",
     "updates": "9.0.1",
-    "ver": "5.1.4"
+    "versions": "7.0.5"
   },
   "scripts": {
     "authors": "bash tools/authors",
     "lint": "npm run stylelint",
-    "patch": "ver -p patch github-selected-tab-color.user.css",
-    "minor": "ver -p minor github-selected-tab-color.user.css",
-    "major": "ver -p major github-selected-tab-color.user.css",
+    "patch": "versions -p -C patch github-selected-tab-color.user.css",
+    "minor": "versions -p -C minor github-selected-tab-color.user.css",
+    "major": "versions -p -C major github-selected-tab-color.user.css",
     "stylelint": "stylelint --quiet --color -- github-selected-tab-color.user.css",
     "test": "npm run stylelint",
     "update": "updates -cu && npm install"

@@ -51,6 +51,12 @@
   body .sidebar-module .disable > a {
     border-left-color: var(--base-color) !important;
   }
+  @media (hover: hover) {
+    body .SelectMenu-tab[aria-selected=true] {
+      border-top-width: 2px;
+      border-top-color: var(--base-color) !important;
+    }
+  }
   /* Start Mobile */
   body[class="page-responsive"] .tabs > a.selected,
   body[class="page-responsive"] a.reponav-item.selected {

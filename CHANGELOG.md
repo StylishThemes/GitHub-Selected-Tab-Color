@@ -1,6 +1,24 @@
-### Version 1.1.2x
+### Version 1.1.25 and Newer
 
-*
+Please see the specific tag for changelog entries.
+
+1) https://github.com/StylishThemes/GitHub-Selected-Tab-Color/releases/tag/
+2) Select a tag.
+
+### Version 1.1.24
+
+* Add actions editor side menu selector
+* Create .npmrc
+* Remove eslint
+* Remove unneeded use of npx in scripts
+* Add actions workflow
+* Use exact dependency versions
+* Update dependencies
+
+### Version 1.1.23
+
+* tweak padding re: tab shifting
+* support https://github.com/features/security
 * update changelog
 * fix stylint error with invalid switch
 * remove perfectionist

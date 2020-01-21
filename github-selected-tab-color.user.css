@@ -87,6 +87,9 @@
   body .reponav .reponav-item.selected {
     padding-top: 7px !important;
   }
+  body .hx_reponav.reponav .reponav-item.selected {
+    padding-top: 5px !important;
+  }
   body .orgnav .pagehead-tabs-item.selected {
     padding-top: 8px !important;
   }

@@ -11,7 +11,7 @@
 @advanced     color base-color "Tab color" #4183C4
 @preprocessor uso
 ==/UserStyle== */
-@-moz-document regexp("^https?://((blog|gist|guides|help|lab|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
+@-moz-document regexp("^https?://((blog|gist|guides|help|lab|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("www.githubstatus.com") {
   :root {
     --base-color: /*[[base-color]]*/;
     --transparent: transparent;
@@ -23,7 +23,8 @@
   body .tabnav-pr .tabnav-tab.selected,
   body #graph_data .tab.selected,
   body .select-menu-tabs .select-menu-tab-nav[aria-selected="true"],
-  body .tabnav-tab[aria-selected=true] {
+  body .tabnav-tab[aria-selected=true],
+  body .history-nav .button.border-color {
     border-top-width: 3px !important;
     border-top-color: var(--base-color) !important;
   }

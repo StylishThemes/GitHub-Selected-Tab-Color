@@ -24,7 +24,8 @@
   body #graph_data .tab.selected,
   body .select-menu-tabs .select-menu-tab-nav[aria-selected="true"],
   body .tabnav-tab[aria-selected=true],
-  body .history-nav .button.border-color {
+  body .history-nav .button.border-color,
+  body .timeline-comment.current-user .tabnav-tab.selected {
     border-top-width: 3px !important;
     border-top-color: var(--base-color) !important;
   }

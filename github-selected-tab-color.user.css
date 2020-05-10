@@ -26,7 +26,7 @@
   body .tabnav-tab[aria-selected=true],
   body .history-nav .button.border-color,
   body .timeline-comment.current-user .tabnav-tab.selected,
-	body .tabnav-tab[aria-current] {
+  body .tabnav-tab[aria-current] {
     border-top-width: 3px !important;
     border-top-color: var(--base-color) !important;
   }

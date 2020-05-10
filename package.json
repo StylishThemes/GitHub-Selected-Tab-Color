@@ -12,10 +12,10 @@
   },
   "devDependencies": {
     "perfectionist": "2.4.0",
-    "stylelint": "13.0.0",
-    "stylelint-config-standard": "19.0.0",
-    "updates": "9.3.3",
-    "versions": "7.0.5"
+    "stylelint": "13.3.3",
+    "stylelint-config-standard": "20.0.0",
+    "updates": "10.2.11",
+    "versions": "8.2.8"
   },
   "scripts": {
     "authors": "bash tools/authors",

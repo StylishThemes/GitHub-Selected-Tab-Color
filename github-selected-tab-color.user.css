@@ -95,9 +95,17 @@
   }
   body .hx_reponav.reponav .reponav-item.selected {
     padding-top: 5px !important;
+    border-bottom: 0 !important;
+  }
+  body .hx_reponav.reponav .reponav-item {
+    padding-top: 7px !important;
+    border-bottom: 0 !important;
   }
   body .orgnav .pagehead-tabs-item.selected {
     padding-top: 8px !important;
+  }
+  body .orgnav .pagehead-tabs-item {
+    border-bottom: 0 !important;
   }
 }
 @-moz-document domain("github.community") {

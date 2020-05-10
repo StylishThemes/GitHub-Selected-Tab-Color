@@ -46,8 +46,12 @@
   body .selected .security-nav-item {
     box-shadow: inset 0 -3px 0 var(--base-color) !important;
   }
-  body .menu-item.selected:before,
-  body .checks-index-item.selected:after {
+  body .menu-item.selected::before,
+  body .checks-index-item.selected::after,
+  body .SideNav-item[aria-current="page"]::before,
+  body .SideNav-item[aria-selected="true"]::before,
+  body .SideNav-item:focus::before,
+  body .SideNav-item:hover::before {
     background-color: var(--base-color) !important;
   }
   body .js-current .standalone a,

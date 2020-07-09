@@ -2,7 +2,7 @@
 
 Please see the specific tag for changelog entries.
 
-1) https://github.com/StylishThemes/GitHub-Selected-Tab-Color/releases/tag/
+1) https://github.com/StylishThemes/GitHub-Selected-Tab-Color/tags
 2) Select a tag.
 
 ### Version 1.1.24

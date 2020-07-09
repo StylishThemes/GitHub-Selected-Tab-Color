@@ -109,12 +109,3 @@
     border-bottom: 0 !important;
   }
 }
-@-moz-document domain("github.community") {
-  :root {
-    --base-color: /*[[base-color]]*/;
-  }
-  body .lia-tabs-standard li > span > a:hover,
-  body .lia-tabs-standard .lia-tabs-active > span > a {
-    border-color: var(--base-color) !important;
-  }
-}

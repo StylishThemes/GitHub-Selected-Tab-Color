@@ -11,7 +11,7 @@
 @advanced     color base-color "Tab color" #4183C4
 @preprocessor uso
 ==/UserStyle== */
-@-moz-document regexp("^https?://((blog|gist|guides|help|lab|launch-editor|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("www.githubstatus.com") {
+@-moz-document regexp("^https?://((blog|gist|guides|docs|lab|launch-editor|raw|resources|status|support|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("www.githubstatus.com") {
   :root {
     --base-color: /*[[base-color]]*/;
     --transparent: transparent;
@@ -40,7 +40,8 @@
   body .user-status-emoji-tab[role=tab][aria-selected=true],
   body .SegmentedNav .subnav-link.selected,
   body .SegmentedNav .subnav-link:hover,
-  body .UnderlineNav-item[role=tab][aria-selected=true] {
+	body .UnderlineNav-item[role="tab"][aria-selected="true"],
+	body .UnderlineNav-item[aria-current]:not([aria-current="false"]) {
     border-bottom-color: var(--base-color) !important;
   }
   body .selected .security-nav-item {

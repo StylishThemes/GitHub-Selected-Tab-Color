@@ -40,8 +40,9 @@
   body .user-status-emoji-tab[role=tab][aria-selected=true],
   body .SegmentedNav .subnav-link.selected,
   body .SegmentedNav .subnav-link:hover,
-	body .UnderlineNav-item[role="tab"][aria-selected="true"],
-	body .UnderlineNav-item[aria-current]:not([aria-current="false"]) {
+  body .UnderlineNav-item[role="tab"][aria-selected="true"],
+  body .UnderlineNav-item[aria-current]:not([aria-current="false"]),
+  body .PRC-selected {
     border-bottom-color: var(--base-color) !important;
   }
   body .selected .security-nav-item {
@@ -59,9 +60,13 @@
   body .sidebar-module .disable > a {
     border-left-color: var(--base-color) !important;
   }
+  body .home-nav-item.selected {
+    border-color: var(--base-color) !important;
+  }
   @media (hover: hover) {
-    body .SelectMenu-tab[aria-selected=true] {
-      border-top-width: 2px;
+    body .SelectMenu-tab[aria-selected="true"],
+    body .SelectMenu-tab[aria-selected="false"]:hover {
+      border-top-width: 3px;
       border-top-color: var(--base-color) !important;
     }
   }

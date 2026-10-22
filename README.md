@@ -1,3 +1,5 @@
+**Retired:** [GitHub Dark](https://github.com/StylishThemes/GitHub-Dark) colors the selected tab with its base color now.
+
 # GitHub Selected Tab Color [![](https://img.shields.io/github/tag/StylishThemes/GitHub-Selected-Tab-Color.svg?label=%20version%20)](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/tags) [![](http://github-svg-buttons.herokuapp.com/star.svg?user=StylishThemes&repo=GitHub-Selected-Tab-Color&style=flat&background=007ec6)](http://github.com/StylishThemes/GitHub-Selected-Tab-Color) [![](https://img.shields.io/github/forks/StylishThemes/GitHub-Selected-Tab-Color.svg?style=flat)](https://github.com/StylishThemes/GitHub-Selected-Tab-Color/network)
 
 Add a custom selected tab color to GitHub's main navigation, issue comment tabs and both the repo and user settings tabs.
